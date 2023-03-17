@@ -1,0 +1,32 @@
+label {
+  font-weight: lighter;
+}
+
+input {
+  display: block;
+}
+
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:invalid:required {
+  background: linear-gradient(right, pink, lightgreen) !important;
+}
+
+input:valid {
+  border: 2px solid black;
+}
+img {
+  width: 100%;
+  opacity: 40%;
+}
+.encabezado {
+  position: relative;
+overflow: hidden;
+}
+.encabezado p {
+top:220px;
+width: 100%;
+position: absolute; 
+}

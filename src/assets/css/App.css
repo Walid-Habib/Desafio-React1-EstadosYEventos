@@ -1,0 +1,20 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 110vh;
+    background: wheat;
+ }
+
+ .container {
+    border: 5px outset;
+    padding: 10px;
+    border-radius: 20px;
+    background: lightcyan;
+    overflow: hidden;
+ }
+ h1, h2, h3, h4 {
+   color: lightslategray;
+    text-shadow: 2px 2px antiquewhite;
+    text-align: center;
+    line-height: 20px;
+ }
